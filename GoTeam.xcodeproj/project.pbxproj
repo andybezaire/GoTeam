@@ -14,6 +14,9 @@
 		A11FBA9A201C7F3000E3F0FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A11FBA98201C7F3000E3F0FB /* LaunchScreen.storyboard */; };
 		A11FBAA5201C7F3000E3F0FB /* GoTeamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11FBAA4201C7F3000E3F0FB /* GoTeamTests.swift */; };
 		A11FBAB0201C7F3000E3F0FB /* GoTeamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11FBAAF201C7F3000E3F0FB /* GoTeamUITests.swift */; };
+		A11FBACE201E1AE900E3F0FB /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11FBACD201E1AE900E3F0FB /* Game.swift */; };
+		A11FBACF201E1AE900E3F0FB /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11FBACD201E1AE900E3F0FB /* Game.swift */; };
+		A11FBAD0201E1AE900E3F0FB /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11FBACD201E1AE900E3F0FB /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,7 @@
 		A11FBAAF201C7F3000E3F0FB /* GoTeamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoTeamUITests.swift; sourceTree = "<group>"; };
 		A11FBAB1201C7F3000E3F0FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A11FBABD201C82A100E3F0FB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A11FBACD201E1AE900E3F0FB /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 			children = (
 				A11FBA8F201C7F3000E3F0FB /* AppDelegate.swift */,
 				A11FBA91201C7F3000E3F0FB /* ViewController.swift */,
+				A11FBAD1201E23A000E3F0FB /* model */,
 				A11FBA93201C7F3000E3F0FB /* Main.storyboard */,
 				A11FBA96201C7F3000E3F0FB /* Assets.xcassets */,
 				A11FBA98201C7F3000E3F0FB /* LaunchScreen.storyboard */,
@@ -125,6 +130,14 @@
 				A11FBAB1201C7F3000E3F0FB /* Info.plist */,
 			);
 			path = GoTeamUITests;
+			sourceTree = "<group>";
+		};
+		A11FBAD1201E23A000E3F0FB /* model */ = {
+			isa = PBXGroup;
+			children = (
+				A11FBACD201E1AE900E3F0FB /* Game.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A11FBA92201C7F3000E3F0FB /* ViewController.swift in Sources */,
+				A11FBACE201E1AE900E3F0FB /* Game.swift in Sources */,
 				A11FBA90201C7F3000E3F0FB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A11FBAA5201C7F3000E3F0FB /* GoTeamTests.swift in Sources */,
+				A11FBACF201E1AE900E3F0FB /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A11FBAB0201C7F3000E3F0FB /* GoTeamUITests.swift in Sources */,
+				A11FBAD0201E1AE900E3F0FB /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
