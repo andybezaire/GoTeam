@@ -9,8 +9,8 @@
 import Foundation
 
 struct Team {
-    let team: String
     let name: String
+    let mascot: String
 }
 
 struct Game {
@@ -30,7 +30,7 @@ struct Game {
 
 extension Team: Equatable {}
 func ==(lhs: Team, rhs: Team) -> Bool {
-    return lhs.team == rhs.team && lhs.name == rhs.name
+    return lhs.name == rhs.name && lhs.mascot == rhs.mascot
 }
 
 extension Game: Equatable {}

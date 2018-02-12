@@ -17,6 +17,7 @@
 		A11FBACE201E1AE900E3F0FB /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11FBACD201E1AE900E3F0FB /* Game.swift */; };
 		A11FBACF201E1AE900E3F0FB /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11FBACD201E1AE900E3F0FB /* Game.swift */; };
 		A11FBAD0201E1AE900E3F0FB /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11FBACD201E1AE900E3F0FB /* Game.swift */; };
+		A1D140862031BDD700F8E3E8 /* ModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D140852031BDD700F8E3E8 /* ModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		A11FBAB1201C7F3000E3F0FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A11FBABD201C82A100E3F0FB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A11FBACD201E1AE900E3F0FB /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		A1D140852031BDD700F8E3E8 /* ModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				A11FBAA4201C7F3000E3F0FB /* GoTeamTests.swift */,
+				A1D140852031BDD700F8E3E8 /* ModelTests.swift */,
 				A11FBAA6201C7F3000E3F0FB /* Info.plist */,
 			);
 			path = GoTeamTests;
@@ -284,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1D140862031BDD700F8E3E8 /* ModelTests.swift in Sources */,
 				A11FBAA5201C7F3000E3F0FB /* GoTeamTests.swift in Sources */,
 				A11FBACF201E1AE900E3F0FB /* Game.swift in Sources */,
 			);
