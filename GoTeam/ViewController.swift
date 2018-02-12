@@ -8,28 +8,56 @@
 
 import UIKit
 
+// MARK: - Types
+
+// MARK: - Constants
+
 enum SampleData {
     static let Team1 = Team(name: "Tampere", mascot: "Saints")
     static let Team2 = Team(name: "Turku", mascot: "Trojans")
+    
+    static let TestGame1 = Game(teams: [Team1, Team2], score: [14, 10])
 }
 
 class ViewController: UIViewController {
-
+    
+    // MARK: - Outlets
+    
+    @IBOutlet weak var gameDescriptionLabel: UILabel!
+    
+    
+    // MARK: - Parameters
+    
+    
+    // MARK: - Actions
+    
+    @IBAction func loadFromFunction(_ sender: UIButton) {
+        gameDescriptionLabel.text = "\(SampleData.TestGame1)"
+        
+    }
+    
+    
+    // MARK: - lifecycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
         
-        let testGame1 = Game(teams: [SampleData.Team1, SampleData.Team2], score: [14, 10])
         
-        print(testGame1)
+        print(SampleData.TestGame1)
         
-        gameDescriptionLabel.text = "\(testGame1)"
     }
+    
+    
+    // MARK: - Segue
+    
+    
+    // MARK: - Utility Functions
 
    
-    @IBOutlet weak var gameDescriptionLabel: UILabel!
-    
-
 }
+
+
+
 
