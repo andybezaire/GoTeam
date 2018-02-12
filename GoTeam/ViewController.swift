@@ -8,18 +8,28 @@
 
 import UIKit
 
+enum SampleData {
+    static let Team1 = Team(name: "Tampere", mascot: "Saints")
+    static let Team2 = Team(name: "Turku", mascot: "Trojans")
+}
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        let testGame1 = Game(teams: [SampleData.Team1, SampleData.Team2], score: [14, 10])
+        
+        print(testGame1)
+        
+        gameDescriptionLabel.text = "\(testGame1)"
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+   
+    @IBOutlet weak var gameDescriptionLabel: UILabel!
+    
 
 }
 
