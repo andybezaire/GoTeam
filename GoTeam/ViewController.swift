@@ -27,12 +27,15 @@ class ViewController: UIViewController {
     
     
     // MARK: - Parameters
-    
+    var game: Game? { didSet {
+        guard let game=game else { return }
+        gameDescriptionLabel.text = "\(game)"
+        }}
     
     // MARK: - Actions
     
     @IBAction func loadFromFunction(_ sender: UIButton) {
-        gameDescriptionLabel.text = "\(SampleData.TestGame1)"
+        game = SampleData.TestGame1
         
     }
     
