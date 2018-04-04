@@ -1,5 +1,5 @@
 # GoTeam
-Amateur sports scores, crowd sourced
+The best things all done here
 
 ## Getting Started
 
